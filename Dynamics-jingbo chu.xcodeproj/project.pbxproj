@@ -14,6 +14,10 @@
 		F63A7E1D1A1F9D9100EFF9DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63A7E1C1A1F9D9100EFF9DE /* Images.xcassets */; };
 		F63A7E201A1F9D9100EFF9DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63A7E1E1A1F9D9100EFF9DE /* LaunchScreen.xib */; };
 		F63A7E2C1A1F9D9100EFF9DE /* Dynamics_jingbo_chuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A7E2B1A1F9D9100EFF9DE /* Dynamics_jingbo_chuTests.m */; };
+		F6FC3D461A1FAF2D00EBB4C6 /* DropBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC3D451A1FAF2D00EBB4C6 /* DropBallViewController.m */; };
+		F6FC3D491A1FAFFA00EBB4C6 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC3D481A1FAFFA00EBB4C6 /* BallView.m */; };
+		F6FC3D4C1A20268500EBB4C6 /* PoolBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC3D4B1A20268500EBB4C6 /* PoolBallViewController.m */; };
+		F6FC3D4F1A20332500EBB4C6 /* BallPoolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC3D4E1A20332500EBB4C6 /* BallPoolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		F63A7E251A1F9D9100EFF9DE /* Dynamics-jingbo chuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics-jingbo chuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63A7E2A1A1F9D9100EFF9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F63A7E2B1A1F9D9100EFF9DE /* Dynamics_jingbo_chuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamics_jingbo_chuTests.m; sourceTree = "<group>"; };
+		F6FC3D441A1FAF2D00EBB4C6 /* DropBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBallViewController.h; sourceTree = "<group>"; };
+		F6FC3D451A1FAF2D00EBB4C6 /* DropBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBallViewController.m; sourceTree = "<group>"; };
+		F6FC3D471A1FAFFA00EBB4C6 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		F6FC3D481A1FAFFA00EBB4C6 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		F6FC3D4A1A20268500EBB4C6 /* PoolBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolBallViewController.h; sourceTree = "<group>"; };
+		F6FC3D4B1A20268500EBB4C6 /* PoolBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolBallViewController.m; sourceTree = "<group>"; };
+		F6FC3D4D1A20332500EBB4C6 /* BallPoolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallPoolView.h; sourceTree = "<group>"; };
+		F6FC3D4E1A20332500EBB4C6 /* BallPoolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallPoolView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +96,19 @@
 				F63A7E131A1F9D9100EFF9DE /* AppDelegate.h */,
 				F63A7E141A1F9D9100EFF9DE /* AppDelegate.m */,
 				F63A7E161A1F9D9100EFF9DE /* ViewController.h */,
-				F63A7E171A1F9D9100EFF9DE /* ViewController.m */,
 				F63A7E191A1F9D9100EFF9DE /* Main.storyboard */,
+				F63A7E171A1F9D9100EFF9DE /* ViewController.m */,
+				F6FC3D441A1FAF2D00EBB4C6 /* DropBallViewController.h */,
+				F6FC3D451A1FAF2D00EBB4C6 /* DropBallViewController.m */,
+				F6FC3D4A1A20268500EBB4C6 /* PoolBallViewController.h */,
+				F6FC3D4B1A20268500EBB4C6 /* PoolBallViewController.m */,
 				F63A7E1C1A1F9D9100EFF9DE /* Images.xcassets */,
 				F63A7E1E1A1F9D9100EFF9DE /* LaunchScreen.xib */,
 				F63A7E0F1A1F9D9100EFF9DE /* Supporting Files */,
+				F6FC3D471A1FAFFA00EBB4C6 /* BallView.h */,
+				F6FC3D481A1FAFFA00EBB4C6 /* BallView.m */,
+				F6FC3D4D1A20332500EBB4C6 /* BallPoolView.h */,
+				F6FC3D4E1A20332500EBB4C6 /* BallPoolView.m */,
 			);
 			path = "Dynamics-jingbo chu";
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FC3D4F1A20332500EBB4C6 /* BallPoolView.m in Sources */,
 				F63A7E181A1F9D9100EFF9DE /* ViewController.m in Sources */,
 				F63A7E151A1F9D9100EFF9DE /* AppDelegate.m in Sources */,
+				F6FC3D491A1FAFFA00EBB4C6 /* BallView.m in Sources */,
+				F6FC3D461A1FAF2D00EBB4C6 /* DropBallViewController.m in Sources */,
 				F63A7E121A1F9D9100EFF9DE /* main.m in Sources */,
+				F6FC3D4C1A20268500EBB4C6 /* PoolBallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +438,7 @@
 				F63A7E311A1F9D9100EFF9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63A7E321A1F9D9100EFF9DE /* Build configuration list for PBXNativeTarget "Dynamics-jingbo chuTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				F63A7E341A1F9D9100EFF9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
